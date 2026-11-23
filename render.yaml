@@ -1,0 +1,12 @@
+# Render Blueprint: New → Blueprint → pick this repository → Apply.
+services:
+  - type: web
+    name: tarih-taitalasy
+    runtime: node
+    plan: free
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /api/meta
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

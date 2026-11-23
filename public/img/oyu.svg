@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="#FFD36B" stroke-width="2.4" stroke-linecap="round">
+  <g id="h">
+    <path d="M60 60C60 46 53 37 43 36C34 35 30 45 37 49C42 52 47 47 43.5 43.5"/>
+    <path d="M60 60C60 46 67 37 77 36C86 35 90 45 83 49C78 52 73 47 76.5 43.5"/>
+  </g>
+  <use href="#h" transform="rotate(180 60 60)"/>
+  <path d="M60 12l4 6-4 6-4-6zM60 96l4 6-4 6-4-6zM12 60l6-4 6 4-6 4zM96 60l6-4 6 4-6 4z"/>
+</svg>
